@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    min-width: 850px;
+}
+.introdct{
+    height: 600px;
+    background-image: url(f/introduction.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position: center ;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(224, 46, 23);
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title{
+    font-size: 70px;
+}
+#total{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+#info{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+#bttn{
+    margin-top: 20px;
+}
+#with{
+    padding: 10px;
+}
+#any{
+    padding: 10px;
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(111, 11, 205);
+}
+button:active{
+    background-color: rgb(119, 80, 156);
+}
+button:focus-visible{
+    outline: 0px;
+    background-color: rgb(95, 20, 165);
+}
+.arrw{
+    padding-top: 10px;
+}
+#arrow{
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    color: rgb(218, 99, 19);
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+#icon{
+    font-size: 25px;
+    margin-left: 3px;
+    color: rgb(205, 84, 3);
+}
+#search{
+    outline: 0px;
+    border: 0px;
+    padding: 10px;
+    width: 500px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
